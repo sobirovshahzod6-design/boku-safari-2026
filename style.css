@@ -44,7 +44,8 @@ p { margin: 0; }
   border-bottom: 1px solid var(--line);
 }
 .bar .wrap { display: flex; align-items: center; gap: 20px; height: 60px; }
-.bar__logo { height: 22px; width: auto; flex: none; }
+.bar .wrap > a:first-child { flex: none; display: flex; }
+.bar__logo { height: 22px; width: auto; max-width: none; flex: none; aspect-ratio: 3028 / 628; }
 .bar nav { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; margin-left: auto; }
 .bar nav::-webkit-scrollbar { display: none; }
 .bar nav a {
