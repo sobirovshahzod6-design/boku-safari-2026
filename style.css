@@ -52,6 +52,10 @@ p { margin: 0; }
   padding: 8px 12px; border-radius: 999px; white-space: nowrap;
 }
 .bar nav a:hover { background: var(--sky); }
+.lang { flex: none; display: flex; gap: 2px; border: 1px solid var(--line); border-radius: 999px; padding: 2px; }
+.lang a { font-size: 13px; font-weight: 700; color: var(--blue-ink); text-decoration: none; padding: 5px 10px; border-radius: 999px; }
+.lang a[aria-current="page"] { background: var(--navy); color: var(--white); }
+.lang a:not([aria-current]):hover { background: var(--sky); }
 
 /* ---------- Hero ---------- */
 .hero {
